@@ -16,6 +16,7 @@
 		E3EDAC771C09B58B0003046C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3EDAC751C09B58B0003046C /* LaunchScreen.storyboard */; };
 		E3EDAC821C09B58B0003046C /* KTTextFieldDatePickerKeyBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EDAC811C09B58B0003046C /* KTTextFieldDatePickerKeyBoardTests.m */; };
 		E3EDAC8D1C09B58B0003046C /* KTTextFieldDatePickerKeyBoardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EDAC8C1C09B58B0003046C /* KTTextFieldDatePickerKeyBoardUITests.m */; };
+		E3EDAC9F1C09BA340003046C /* UITextField+DatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EDAC9E1C09BA340003046C /* UITextField+DatePicker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		E3EDAC881C09B58B0003046C /* KTTextFieldDatePickerKeyBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTTextFieldDatePickerKeyBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3EDAC8C1C09B58B0003046C /* KTTextFieldDatePickerKeyBoardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTTextFieldDatePickerKeyBoardUITests.m; sourceTree = "<group>"; };
 		E3EDAC8E1C09B58B0003046C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3EDAC9D1C09BA340003046C /* UITextField+DatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+DatePicker.h"; sourceTree = SOURCE_ROOT; };
+		E3EDAC9E1C09BA340003046C /* UITextField+DatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+DatePicker.m"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,8 @@
 		E3EDAC631C09B58B0003046C /* KTTextFieldDatePickerKeyBoard */ = {
 			isa = PBXGroup;
 			children = (
+				E3EDAC9D1C09BA340003046C /* UITextField+DatePicker.h */,
+				E3EDAC9E1C09BA340003046C /* UITextField+DatePicker.m */,
 				E3EDAC671C09B58B0003046C /* AppDelegate.h */,
 				E3EDAC681C09B58B0003046C /* AppDelegate.m */,
 				E3EDAC6A1C09B58B0003046C /* FirstViewController.h */,
@@ -277,6 +282,7 @@
 			files = (
 				E3EDAC6F1C09B58B0003046C /* SecondViewController.m in Sources */,
 				E3EDAC691C09B58B0003046C /* AppDelegate.m in Sources */,
+				E3EDAC9F1C09BA340003046C /* UITextField+DatePicker.m in Sources */,
 				E3EDAC6C1C09B58B0003046C /* FirstViewController.m in Sources */,
 				E3EDAC661C09B58B0003046C /* main.m in Sources */,
 			);
