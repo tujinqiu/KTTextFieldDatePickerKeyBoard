@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E3EDAC661C09B58B0003046C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EDAC651C09B58B0003046C /* main.m */; };
+		E3EDAC691C09B58B0003046C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EDAC681C09B58B0003046C /* AppDelegate.m */; };
+		E3EDAC6C1C09B58B0003046C /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EDAC6B1C09B58B0003046C /* FirstViewController.m */; };
+		E3EDAC6F1C09B58B0003046C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EDAC6E1C09B58B0003046C /* SecondViewController.m */; };
+		E3EDAC721C09B58B0003046C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3EDAC701C09B58B0003046C /* Main.storyboard */; };
+		E3EDAC741C09B58B0003046C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3EDAC731C09B58B0003046C /* Assets.xcassets */; };
+		E3EDAC771C09B58B0003046C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3EDAC751C09B58B0003046C /* LaunchScreen.storyboard */; };
+		E3EDAC821C09B58B0003046C /* KTTextFieldDatePickerKeyBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EDAC811C09B58B0003046C /* KTTextFieldDatePickerKeyBoardTests.m */; };
+		E3EDAC8D1C09B58B0003046C /* KTTextFieldDatePickerKeyBoardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EDAC8C1C09B58B0003046C /* KTTextFieldDatePickerKeyBoardUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E3EDAC7E1C09B58B0003046C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3EDAC591C09B58B0003046C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3EDAC601C09B58B0003046C;
+			remoteInfo = KTTextFieldDatePickerKeyBoard;
+		};
+		E3EDAC891C09B58B0003046C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3EDAC591C09B58B0003046C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3EDAC601C09B58B0003046C;
+			remoteInfo = KTTextFieldDatePickerKeyBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E3EDAC611C09B58B0003046C /* KTTextFieldDatePickerKeyBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KTTextFieldDatePickerKeyBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3EDAC651C09B58B0003046C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E3EDAC671C09B58B0003046C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E3EDAC681C09B58B0003046C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E3EDAC6A1C09B58B0003046C /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		E3EDAC6B1C09B58B0003046C /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		E3EDAC6D1C09B58B0003046C /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		E3EDAC6E1C09B58B0003046C /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		E3EDAC711C09B58B0003046C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E3EDAC731C09B58B0003046C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3EDAC761C09B58B0003046C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E3EDAC781C09B58B0003046C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3EDAC7D1C09B58B0003046C /* KTTextFieldDatePickerKeyBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTTextFieldDatePickerKeyBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3EDAC811C09B58B0003046C /* KTTextFieldDatePickerKeyBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTTextFieldDatePickerKeyBoardTests.m; sourceTree = "<group>"; };
+		E3EDAC831C09B58B0003046C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3EDAC881C09B58B0003046C /* KTTextFieldDatePickerKeyBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTTextFieldDatePickerKeyBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3EDAC8C1C09B58B0003046C /* KTTextFieldDatePickerKeyBoardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTTextFieldDatePickerKeyBoardUITests.m; sourceTree = "<group>"; };
+		E3EDAC8E1C09B58B0003046C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3EDAC5E1C09B58B0003046C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3EDAC7A1C09B58B0003046C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3EDAC851C09B58B0003046C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E3EDAC581C09B58B0003046C = {
+			isa = PBXGroup;
+			children = (
+				E3EDAC631C09B58B0003046C /* KTTextFieldDatePickerKeyBoard */,
+				E3EDAC801C09B58B0003046C /* KTTextFieldDatePickerKeyBoardTests */,
+				E3EDAC8B1C09B58B0003046C /* KTTextFieldDatePickerKeyBoardUITests */,
+				E3EDAC621C09B58B0003046C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3EDAC621C09B58B0003046C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3EDAC611C09B58B0003046C /* KTTextFieldDatePickerKeyBoard.app */,
+				E3EDAC7D1C09B58B0003046C /* KTTextFieldDatePickerKeyBoardTests.xctest */,
+				E3EDAC881C09B58B0003046C /* KTTextFieldDatePickerKeyBoardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3EDAC631C09B58B0003046C /* KTTextFieldDatePickerKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				E3EDAC671C09B58B0003046C /* AppDelegate.h */,
+				E3EDAC681C09B58B0003046C /* AppDelegate.m */,
+				E3EDAC6A1C09B58B0003046C /* FirstViewController.h */,
+				E3EDAC6B1C09B58B0003046C /* FirstViewController.m */,
+				E3EDAC6D1C09B58B0003046C /* SecondViewController.h */,
+				E3EDAC6E1C09B58B0003046C /* SecondViewController.m */,
+				E3EDAC701C09B58B0003046C /* Main.storyboard */,
+				E3EDAC731C09B58B0003046C /* Assets.xcassets */,
+				E3EDAC751C09B58B0003046C /* LaunchScreen.storyboard */,
+				E3EDAC781C09B58B0003046C /* Info.plist */,
+				E3EDAC641C09B58B0003046C /* Supporting Files */,
+			);
+			path = KTTextFieldDatePickerKeyBoard;
+			sourceTree = "<group>";
+		};
+		E3EDAC641C09B58B0003046C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3EDAC651C09B58B0003046C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E3EDAC801C09B58B0003046C /* KTTextFieldDatePickerKeyBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				E3EDAC811C09B58B0003046C /* KTTextFieldDatePickerKeyBoardTests.m */,
+				E3EDAC831C09B58B0003046C /* Info.plist */,
+			);
+			path = KTTextFieldDatePickerKeyBoardTests;
+			sourceTree = "<group>";
+		};
+		E3EDAC8B1C09B58B0003046C /* KTTextFieldDatePickerKeyBoardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E3EDAC8C1C09B58B0003046C /* KTTextFieldDatePickerKeyBoardUITests.m */,
+				E3EDAC8E1C09B58B0003046C /* Info.plist */,
+			);
+			path = KTTextFieldDatePickerKeyBoardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3EDAC601C09B58B0003046C /* KTTextFieldDatePickerKeyBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3EDAC911C09B58B0003046C /* Build configuration list for PBXNativeTarget "KTTextFieldDatePickerKeyBoard" */;
+			buildPhases = (
+				E3EDAC5D1C09B58B0003046C /* Sources */,
+				E3EDAC5E1C09B58B0003046C /* Frameworks */,
+				E3EDAC5F1C09B58B0003046C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KTTextFieldDatePickerKeyBoard;
+			productName = KTTextFieldDatePickerKeyBoard;
+			productReference = E3EDAC611C09B58B0003046C /* KTTextFieldDatePickerKeyBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E3EDAC7C1C09B58B0003046C /* KTTextFieldDatePickerKeyBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3EDAC941C09B58B0003046C /* Build configuration list for PBXNativeTarget "KTTextFieldDatePickerKeyBoardTests" */;
+			buildPhases = (
+				E3EDAC791C09B58B0003046C /* Sources */,
+				E3EDAC7A1C09B58B0003046C /* Frameworks */,
+				E3EDAC7B1C09B58B0003046C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3EDAC7F1C09B58B0003046C /* PBXTargetDependency */,
+			);
+			name = KTTextFieldDatePickerKeyBoardTests;
+			productName = KTTextFieldDatePickerKeyBoardTests;
+			productReference = E3EDAC7D1C09B58B0003046C /* KTTextFieldDatePickerKeyBoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E3EDAC871C09B58B0003046C /* KTTextFieldDatePickerKeyBoardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3EDAC971C09B58B0003046C /* Build configuration list for PBXNativeTarget "KTTextFieldDatePickerKeyBoardUITests" */;
+			buildPhases = (
+				E3EDAC841C09B58B0003046C /* Sources */,
+				E3EDAC851C09B58B0003046C /* Frameworks */,
+				E3EDAC861C09B58B0003046C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3EDAC8A1C09B58B0003046C /* PBXTargetDependency */,
+			);
+			name = KTTextFieldDatePickerKeyBoardUITests;
+			productName = KTTextFieldDatePickerKeyBoardUITests;
+			productReference = E3EDAC881C09B58B0003046C /* KTTextFieldDatePickerKeyBoardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3EDAC591C09B58B0003046C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = tujinqiu;
+				TargetAttributes = {
+					E3EDAC601C09B58B0003046C = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					E3EDAC7C1C09B58B0003046C = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = E3EDAC601C09B58B0003046C;
+					};
+					E3EDAC871C09B58B0003046C = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = E3EDAC601C09B58B0003046C;
+					};
+				};
+			};
+			buildConfigurationList = E3EDAC5C1C09B58B0003046C /* Build configuration list for PBXProject "KTTextFieldDatePickerKeyBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E3EDAC581C09B58B0003046C;
+			productRefGroup = E3EDAC621C09B58B0003046C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3EDAC601C09B58B0003046C /* KTTextFieldDatePickerKeyBoard */,
+				E3EDAC7C1C09B58B0003046C /* KTTextFieldDatePickerKeyBoardTests */,
+				E3EDAC871C09B58B0003046C /* KTTextFieldDatePickerKeyBoardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3EDAC5F1C09B58B0003046C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3EDAC771C09B58B0003046C /* LaunchScreen.storyboard in Resources */,
+				E3EDAC741C09B58B0003046C /* Assets.xcassets in Resources */,
+				E3EDAC721C09B58B0003046C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3EDAC7B1C09B58B0003046C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3EDAC861C09B58B0003046C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3EDAC5D1C09B58B0003046C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3EDAC6F1C09B58B0003046C /* SecondViewController.m in Sources */,
+				E3EDAC691C09B58B0003046C /* AppDelegate.m in Sources */,
+				E3EDAC6C1C09B58B0003046C /* FirstViewController.m in Sources */,
+				E3EDAC661C09B58B0003046C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3EDAC791C09B58B0003046C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3EDAC821C09B58B0003046C /* KTTextFieldDatePickerKeyBoardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3EDAC841C09B58B0003046C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3EDAC8D1C09B58B0003046C /* KTTextFieldDatePickerKeyBoardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E3EDAC7F1C09B58B0003046C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3EDAC601C09B58B0003046C /* KTTextFieldDatePickerKeyBoard */;
+			targetProxy = E3EDAC7E1C09B58B0003046C /* PBXContainerItemProxy */;
+		};
+		E3EDAC8A1C09B58B0003046C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3EDAC601C09B58B0003046C /* KTTextFieldDatePickerKeyBoard */;
+			targetProxy = E3EDAC891C09B58B0003046C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E3EDAC701C09B58B0003046C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3EDAC711C09B58B0003046C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E3EDAC751C09B58B0003046C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3EDAC761C09B58B0003046C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E3EDAC8F1C09B58B0003046C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E3EDAC901C09B58B0003046C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3EDAC921C09B58B0003046C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KTTextFieldDatePickerKeyBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LT.KTTextFieldDatePickerKeyBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E3EDAC931C09B58B0003046C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KTTextFieldDatePickerKeyBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LT.KTTextFieldDatePickerKeyBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E3EDAC951C09B58B0003046C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KTTextFieldDatePickerKeyBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LT.KTTextFieldDatePickerKeyBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KTTextFieldDatePickerKeyBoard.app/KTTextFieldDatePickerKeyBoard";
+			};
+			name = Debug;
+		};
+		E3EDAC961C09B58B0003046C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KTTextFieldDatePickerKeyBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LT.KTTextFieldDatePickerKeyBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KTTextFieldDatePickerKeyBoard.app/KTTextFieldDatePickerKeyBoard";
+			};
+			name = Release;
+		};
+		E3EDAC981C09B58B0003046C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KTTextFieldDatePickerKeyBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LT.KTTextFieldDatePickerKeyBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KTTextFieldDatePickerKeyBoard;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E3EDAC991C09B58B0003046C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KTTextFieldDatePickerKeyBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LT.KTTextFieldDatePickerKeyBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KTTextFieldDatePickerKeyBoard;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3EDAC5C1C09B58B0003046C /* Build configuration list for PBXProject "KTTextFieldDatePickerKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3EDAC8F1C09B58B0003046C /* Debug */,
+				E3EDAC901C09B58B0003046C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3EDAC911C09B58B0003046C /* Build configuration list for PBXNativeTarget "KTTextFieldDatePickerKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3EDAC921C09B58B0003046C /* Debug */,
+				E3EDAC931C09B58B0003046C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E3EDAC941C09B58B0003046C /* Build configuration list for PBXNativeTarget "KTTextFieldDatePickerKeyBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3EDAC951C09B58B0003046C /* Debug */,
+				E3EDAC961C09B58B0003046C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E3EDAC971C09B58B0003046C /* Build configuration list for PBXNativeTarget "KTTextFieldDatePickerKeyBoardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3EDAC981C09B58B0003046C /* Debug */,
+				E3EDAC991C09B58B0003046C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E3EDAC591C09B58B0003046C /* Project object */;
+}
